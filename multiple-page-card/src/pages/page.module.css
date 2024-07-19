@@ -1,0 +1,55 @@
+.content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.heading{
+    margin: 12px 0px 20px 0px;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.middle{
+    margin: 20px 0px;
+}
+
+.button{
+    margin: 5px 0px;
+    
+}
+
+.blackBtn{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.homePageSteps{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.list{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.listPoints{
+    background-color: #91C447;
+    border-radius: 100%;
+    color: white;
+    width: 10px;
+    height: 10px;
+    font-size: 9px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
